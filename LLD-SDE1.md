@@ -1,51 +1,51 @@
 ### Prerequisites Checklist for LLD
 
-| Phase / Step | Core Concept | Specific Topics & Sub-topics to Study | Key TypeScript/JS Nuances | Done |
-| --- | --- | --- | --- | --- |
-| **1. OOP Basics**<br> | Syntax & Mechanics
+* [ ] **1. OOP Basics**
+* **Core Concept:** Syntax & Mechanics
+* **Specific Topics:** Classes, objects, constructors, field initializers, access modifiers (`public`, `private`, `protected`), `static` members, `readonly` (final equivalent), method overriding, function/method overloading.
+* **TypeScript Nuances:** TypeScript function overloading signatures vs. single implementation signature; compile-time checks vs. runtime prototype emissions.
 
- | Classes, objects, constructors, field initializers, access modifiers (`public`, `private`, `protected`), `static` members, `readonly` (final equivalent), method overriding, function/method overloading.
 
- | TypeScript function overloading signatures vs. single implementation signature; compile-time checks vs. runtime prototype emissions. | [ ] |
-| **2. Four Pillars**<br> | Core Foundations
+* [ ] **2. Four Pillars**
+* **Core Concept:** Core Foundations
+* **Specific Topics:** Encapsulation (data hiding, getters/setters), Abstraction (hiding implementation complexity), Inheritance (hierarchical sub-typing), Polymorphism (subtype polymorphism, method dispatch).
+* **TypeScript Nuances:** Favor composition over deep inheritance hierarchies; prototype-chain mechanics behind TS classes.
 
- | Encapsulation (data hiding, getters/setters), Abstraction (hiding implementation complexity), Inheritance (hierarchical sub-typing), Polymorphism (subtype polymorphism, method dispatch).
 
- | Favor composition over deep inheritance hierarchies; prototype-chain mechanics behind TS classes. | [ ] |
-| **3. Relationships**<br> | Object Coupling
+* [ ] **3. Relationships**
+* **Core Concept:** Object Coupling
+* **Specific Topics:** Association (peer-to-peer "uses-a"), Aggregation (independent lifecycle "has-a"), Composition (dependent lifecycle "part-of", owner controls destruction).
+* **TypeScript Nuances:** Expressing strong vs. weak ownership without manual memory management; managing garbage collection references in long-running Node.js processes.
 
- | Association (peer-to-peer "uses-a"), Aggregation (independent lifecycle "has-a"), Composition (dependent lifecycle "part-of", owner controls destruction).
 
- | Expressing strong vs. weak ownership without manual memory management; managing garbage collection references in long-running Node.js processes. | [ ] |
-| **4. SOLID Principles**<br> | Extensibility Rules
+* [ ] **4. SOLID Principles**
+* **Core Concept:** Extensibility Rules
+* **Specific Topics:** **S**: Single Responsibility; **O**: Open/Closed; **L**: Liskov Substitution; **I**: Interface Segregation; **D**: Dependency Inversion.
+* **TypeScript Nuances:** Dependency injection via constructors/factories; avoiding tight coupling to third-party SDKs; keeping TS interfaces minimal and client-specific.
 
- | **S**: Single Responsibility Principle; **O**: Open/Closed Principle (via interfaces); **L**: Liskov Substitution Principle; **I**: Interface Segregation Principle; **D**: Dependency Inversion Principle.
 
- | Dependency injection via constructors/factories; avoiding tight coupling to third-party SDKs; keeping TS interfaces minimal and client-specific. | [ ] |
-| **5. Interface vs. Abstract Class**<br> | Contract Design
+* [ ] **5. Interface vs. Abstract Class**
+* **Core Concept:** Contract Design
+* **Specific Topics:** Contracts vs. template implementations, when to pick an interface (pure signature, multiple inheritance), when to pick an abstract class (code reuse, default behavior).
+* **TypeScript Nuances:** Interfaces evaporate completely at TS compile time (zero runtime bundle footprint), whereas abstract classes compile down to JavaScript constructor functions.
 
- | Contracts vs. template implementations, when to pick an interface (pure signature, multiple inheritance of type), when to pick an abstract class (code reuse, default behavior, template method pattern).
 
- | Interfaces evaporate completely at TS compile time (zero runtime bundle footprint), whereas abstract classes compile down to JavaScript constructor functions. | [ ] |
-| **6. Design Patterns**<br> | Reusable Blueprints
+* [ ] **6. Design Patterns**
+* **Core Concept:** Reusable Blueprints
+* **Specific Topics:** Creational (Singleton, Factory, Builder), Structural (Adapter, Decorator, Proxy), Behavioral (Strategy, Observer, State, Command).
+* **TypeScript Nuances:** Replacing certain classic patterns with native closures/functions when classes are unnecessary; implementing typed EventEmitters for Observer.
 
- | **Creational:** Singleton, Factory Method, Abstract Factory, Builder.<br>
 
-<br>**Structural:** Adapter, Decorator, Facade, Proxy.<br>
+* [ ] **7. UML & Diagramming**
+* **Core Concept:** Visual Architecture
+* **Specific Topics:** **Class Diagrams:** Visibility notations, relationship arrows. **Sequence Diagrams:** Lifelines, activation bars, async calls.
+* **TypeScript Nuances:** Translating asynchronous promises, microtasks, and event loops into accurate sequence diagrams.
 
-<br>**Behavioral:** Strategy, Observer, State, Command, Chain of Responsibility.
 
- | Replacing certain classic patterns with native closures/functions when classes are unnecessary; implementing typed EventEmitters for Observer. | [ ] |
-| **7. UML & Diagramming**<br> | Visual Architecture
-
- | **Class Diagrams:** Visibility notations (+, -, #), relationship arrows (realization, inheritance, composition, aggregation).<br>
-
-<br>**Sequence Diagrams:** Lifelines, activation bars, synchronous vs. asynchronous calls, return messages.<br>
-
-<br>**State Machines:** State transitions, guard conditions.
-
- | Translating asynchronous promises, microtasks, and event loops into accurate sequence diagrams. | [ ] |
-| **8. Concurrency & Mechanics** | Application Runtime | Single-threaded Event Loop, Macrotask vs. Microtask queue, Promise chaining, race condition mitigation in async/await, Idempotency keys, optimistic vs. pessimistic database locking. | Deadlock prevention in async locks, Promise pooling, avoiding unhandled promise rejections. | [ ] |
+* [ ] **8. Concurrency & Mechanics**
+* **Core Concept:** Application Runtime
+* **Specific Topics:** Single-threaded Event Loop, Macrotask vs. Microtask queue, Promise chaining, race condition mitigation in async/await, Idempotency keys.
+* **TypeScript Nuances:** Deadlock prevention in async locks, Promise pooling, avoiding unhandled promise rejections.
 
 ---
 
