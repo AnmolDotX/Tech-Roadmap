@@ -8,69 +8,6 @@
 
 ---
 
-## 📋 Table of Contents
-
-1. [TL;DR](#1--tldr)
-2. [Reality Check: Level, Salary & Geography](#2--reality-check-level-salary--geography)
-3. [What Employers Actually Hire For](#3--what-employers-actually-hire-for)
-4. [Your Edge as a Frontend Engineer](#4--your-edge-as-a-frontend-engineer)
-5. [Language Strategy: Go vs Python vs TypeScript](#5--language-strategy-go-vs-python-vs-typescript)
-6. [Timeline at a Glance](#6--timeline-at-a-glance)
-7. [Learning Modules (with market overview per topic)](#7--learning-modules)
-8. [Portfolio Projects](#8--portfolio-projects)
-9. [Job Search Playbook](#9--job-search-playbook)
-10. [Interview Prep Bank](#10--interview-prep-bank)
-11. [Master Checklist](#11--master-checklist)
-12. [Sources](#12--sources)
-
----
-
-## 1. ⚡ TL;DR
-
-1. **Target role:** *AI Application Engineer* (full-stack, frontend-leaning) first, *AI Platform / Backend* second. You are not aiming at ML Engineer or research.
-2. **Target level:** SDE-1 to SDE-2 (mid) with a "software engineer who ships LLM features" profile. Your frontend years count for a lot. You are *not* a fresher.
-3. **Hiring is portfolio-heavy.** Employers want shipped, deployed, evaluated projects far more than certificates.
-4. **Biggest honesty point:** most AI job postings ask for **Python** (and/or TypeScript). Go is a strong **differentiator** for platform/gateway/infra roles but is rarely the only language required. So learn Go deeply, and also build the same core ideas in Python.
-5. **$80–100k is realistic only on certain paths** (Section 2). Plan for a first offer in a lower band if you are India-based and applying locally, and plan how to reach the higher band (remote/global roles, or after 1–2 years of production AI experience).
-6. **Most valuable differentiators:** evals, observability, RAG quality, agent reliability, streaming UX, and cost/latency control. Almost no tutorial-level candidates have these.
-
----
-
-## 2. 🧪 Reality Check: Level, Salary & Geography
-
-> Salary sites disagree a lot and many are marketing pages. Treat every number below as **indicative**, not guaranteed.
-
-### What the data suggests
-
-| Market | Indicative data (2026) | What it means for you |
-|---|---|---|
-| **US, "entry-level"** | Sources range from about **$69k** (ZipRecruiter-type average) to **$88k** to **$100k–$135k** base. One recruiter guide stresses that "entry-level" AI offers often go to people with a CS degree/master's and real project work. | $80–100k lies inside the US range. Getting a US-company offer without a degree edge means you need strong evidence of shipped work. |
-| **US, mid-level** | About **$120k–$220k** depending on the source. | Your SDE-2-equivalent target eventually. |
-| **India, freshers / IT services** | Roughly **₹6–9 LPA** for AI-titled roles. | Not your target. |
-| **India, mid-level applied AI (2–5 yrs)** | One guide reports ~₹20 LPA average, top 25% ~₹32 LPA, top 10% ~₹40 LPA. Another reports **₹30–55 LPA** at global tech offices for mid-level. | A realistic landing zone for a strong frontend engineer who builds real LLM projects. |
-| **India, senior/remote** | One guide cites **₹60–80 LPA equivalent** for senior AI engineers working remotely from India. | This is the band where $80–100k lives if you're India-based. |
-
-> 💱 **Conversion:** $80–100k is roughly **₹70–90 LPA** at recent exchange rates. Check today's rate.
-
-### Honest conclusions
-
-- **If you're in India and apply locally:** a first AI role at roughly **₹15–45 LPA** is the achievable range depending on your current experience, company type (startup vs GCC vs product) and portfolio. Reaching $80–100k-equivalent usually takes **either** a remote/global employer **or** 1–2 years of production AI experience on your CV.
-- **If you're targeting US/EU remote roles:** doable but very competitive. Expect strict screening, timezone expectations, and often contractor terms. Your open-source work, demos and writing matter more than anywhere else.
-- **If you already have 3+ years of frontend experience,** the transition can come with a strong salary step. One guide reports a 60–100% jump when engineers move from AI integration work at services firms to production LLM work at product companies. Treat that as an upper-end example, not a promise.
-- **Time reality:** employed engineers often need **6–12 months** of consistent work to get a portfolio strong enough. Your 6-month learning plan plus 2–4 months of focused applying is a sensible budget.
-
-### Which level to apply for
-
-| If you have... | Apply for | Notes |
-|---|---|---|
-| 0–2 yrs frontend | AI Engineer (junior) / SDE-1 / full-stack with AI | Portfolio must carry you. Consider startups. |
-| 2–5 yrs frontend | AI Engineer / SDE-2 / "Applied AI Engineer" | Sweet spot. Frame yourself as a product engineer who ships AI features. |
-| 5+ yrs frontend | AI Engineer (mid/senior) / "AI Product Engineer" | Lean on UX, architecture and ownership. |
-
-> ❓ **Fill this in for yourself:** years of experience: ___ · country/city: ___ · current salary: ___ · target date: ___
-
----
-
 ## 3. 🏢 What Employers Actually Hire For
 
 Reports from 2026 hiring data and skills guides agree on a common core:
@@ -91,25 +28,6 @@ Other consistent signals:
 - Teams do not expect mastery of every layer, but they expect you to explain how the layers connect, starting at the LLM application layer.
 
 ---
-
-## 4. 💪 Your Edge as a Frontend Engineer
-
-Most AI engineer candidates are weak at UX. You are not. Lean into it:
-
-- **Streaming UIs:** token-by-token rendering, stop/regenerate, optimistic UI, error recovery, markdown/code rendering
-- **Generative UI:** model-driven components, tool results rendered as widgets
-- **Voice and multimodal:** microphone input, realtime audio, image upload and vision
-- **Product sense:** you know what makes an AI feature feel fast and trustworthy (latency perception, loading states, citations, feedback buttons)
-- **TypeScript:** your existing strength. Many AI product teams use TS end to end.
-
-**Positioning statement:**
-> "I'm a product engineer who ships AI features end to end: streaming frontend, a typed backend (Go/Python), retrieval and agent logic, evals and observability."
-
-**Your gaps to close** (backend-side, since you're coming from frontend): HTTP/REST depth, auth, databases (Postgres), caching, queues, Docker, cloud basics, testing and system design. These are built into the modules below.
-
----
-
-## 5. 🗣️ Language Strategy: Go vs Python vs TypeScript
 
 ### Honest market picture
 
@@ -613,20 +531,3 @@ While learning, try to **introduce AI features at your current job** (support bo
 **Monthly review:** every 4 weeks, check progress against this list, adjust the plan and update your portfolio. Tools change quickly; the fundamentals (software engineering, evals, reliability, UX) do not.
 
 ---
-
-## 12. 🔗 Sources
-
-Salary and hiring figures come from public aggregator and guide pages from 2026. They disagree with each other, so use them for ranges and not exact numbers.
-
-- [The AI Engineer in 2026: What the Role Actually Requires](https://www.tribuneindia.com/news/business/the-ai-engineer-in-2026-what-the-role-actually-requires/)
-- [AI Engineer Skills in 2026: The Real Checklist Hiring Teams Want (Scaler)](https://www.scaler.com/topics/ai-engineer-skills-2026-checklist-hiring-teams-want/)
-- [How to Become an AI Engineer: A Developer's Roadmap for 2026 (Scrimba)](https://scrimba.com/articles/how-to-become-an-ai-engineer-a-developers-roadmap-for-2026)
-- [AI Engineer Roadmap 2026 (Let's Data Science)](https://letsdatascience.com/blog/ai-engineer-roadmap-2026-skills-tools-and-career-path)
-- [AI Engineer Salary Guide 2026: Entry Level to Senior (Millersville)](https://techprogram.millersville.edu/blog/ai-engineer-salary-guide-2026/)
-- [AI Engineer Salary Guide (KORE1)](https://kore1.com/ai-engineer-salary-guide/)
-- [AI Engineer Salaries in 2026: US vs Europe vs Latin America](https://www.remotelytalents.com/blog/ai-engineer-salaries-2026-us-vs-europe-vs-latin-america)
-- [Entry Level AI Engineer Salary (ZipRecruiter)](https://www.ziprecruiter.com/Salaries/Entry-Level-Ai-Engineer-Salary)
-- [AI Engineer Salary in India 2026 (Taggd)](https://taggd.in/blogs/ai-engineer-salary/)
-- [AI Engineer Salary in India (Instahyre)](https://resources.instahyre.com/blog/ai-engineer-salary-in-india/)
-- [Applied AI Engineer in India (Recrew)](https://www.recrew.ai/salary-guides/applied-ai-engineer-in-india)
-- [AI Engineer Salary in India 2026 (Weekday)](https://www.weekday.works/post/ai-engineer-salary-in-india-2026)
