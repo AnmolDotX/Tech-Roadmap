@@ -1,4 +1,4 @@
-# SDE Interview Prep & Revision Roadmaps
+# SDE Interview Prep
 
 #### For SDE1 & SDE2 
 
