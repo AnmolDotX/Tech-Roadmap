@@ -64,7 +64,7 @@ Building this specific architecture directly demonstrates the exact skills requi
 
 ----
 
-## Product Requirements Document: Trace (Context-Aware Research Engine)
+## 2). Product Requirements Document: Trace (Context-Aware Research Engine)
 
 **1. Product Overview**
 Trace is a self-hosted, privacy-first RAG (Retrieval-Augmented Generation) search engine. It captures technical documentation and articles a user reads, indexes them in a local vector database, and retains this memory for exactly 7 days. Users can query their recent reading history using natural language to retrieve specific code snippets or concepts without relying on generic web search.
