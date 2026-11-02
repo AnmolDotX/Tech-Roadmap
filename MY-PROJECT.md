@@ -53,7 +53,7 @@ Memex is a privacy-first, blazingly fast Markdown knowledge base packaged as a n
 * **Motion.dev:** Implement fluid layout transitions when opening the sidebar, expanding the AI suggestion panel, or switching between note and graph views.
 * Ensure animations are hardware-accelerated and do not drop frames when Wails passes large text payloads over the IPC bridge.
 
-## 3. SDE-2 Competency Mapping (Resume & Interview Impact)
+# 3. SDE-2 Competency Mapping (Resume & Interview Impact)
 
 Building this specific architecture directly demonstrates the exact skills required for SDE-2 and Senior backend engineering roles:
 
@@ -62,6 +62,8 @@ Building this specific architecture directly demonstrates the exact skills requi
 * **Database Optimization:** Designing an efficient normalized SQLite schema for a local graph network, implementing proper indexing, and handling concurrent SQLite locks.
 * **Production Readiness:** Writing custom `Makefile` or shell aliases in `zsh` to handle the Wails build process, managing the cross-compilation to Apple Silicon, and ensuring the final binary is stripped and optimized.
 
+----
+----
 ----
 
 ## 2). Product Requirements Document: Trace (Context-Aware Research Engine)
