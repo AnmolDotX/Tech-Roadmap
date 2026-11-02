@@ -53,7 +53,7 @@ Memex is a privacy-first, blazingly fast Markdown knowledge base packaged as a n
 * **Motion.dev:** Implement fluid layout transitions when opening the sidebar, expanding the AI suggestion panel, or switching between note and graph views.
 * Ensure animations are hardware-accelerated and do not drop frames when Wails passes large text payloads over the IPC bridge.
 
-# 3. SDE-2 Competency Mapping (Resume & Interview Impact)
+### 3. SDE-2 Competency Mapping (Resume & Interview Impact)
 
 Building this specific architecture directly demonstrates the exact skills required for SDE-2 and Senior backend engineering roles:
 
